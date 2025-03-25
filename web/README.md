@@ -3,7 +3,7 @@
 ### 1. Configurar Variáveis de Ambiente
 
 ```bash
-cp .env.example .env.local
+cp .env.sample .env.local
 ```
 
 ### 2. Instalar Dependências
