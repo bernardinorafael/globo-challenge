@@ -1,4 +1,4 @@
-module github.com/bernardinorafael/globo-bbb-challenge
+module github.com/bernardinorafael/globo-challenge
 
 go 1.23.3
 

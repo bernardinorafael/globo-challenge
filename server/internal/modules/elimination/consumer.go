@@ -5,9 +5,9 @@ import (
 	"encoding/json"
 	"log/slog"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/metric"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/queue"
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/errs"
+	"github.com/bernardinorafael/globo-challenge/internal/metric"
+	"github.com/bernardinorafael/globo-challenge/internal/queue"
+	"github.com/bernardinorafael/globo-challenge/pkg/errs"
 )
 
 type consumer struct {

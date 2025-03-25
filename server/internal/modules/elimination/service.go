@@ -7,12 +7,12 @@ import (
 	"math"
 	"time"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/metric"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/modules/participant"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/queue"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/shared/dto"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/util"
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/errs"
+	"github.com/bernardinorafael/globo-challenge/internal/metric"
+	"github.com/bernardinorafael/globo-challenge/internal/modules/participant"
+	"github.com/bernardinorafael/globo-challenge/internal/queue"
+	"github.com/bernardinorafael/globo-challenge/internal/shared/dto"
+	"github.com/bernardinorafael/globo-challenge/internal/util"
+	"github.com/bernardinorafael/globo-challenge/pkg/errs"
 )
 
 const (

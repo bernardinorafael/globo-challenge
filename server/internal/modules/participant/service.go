@@ -3,7 +3,7 @@ package participant
 import (
 	"context"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/errs"
+	"github.com/bernardinorafael/globo-challenge/pkg/errs"
 )
 
 type service struct {

@@ -2,7 +2,7 @@ import { Button } from "@/src/components/button"
 import { LogoIcon } from "@/src/components/logo-icon"
 import { TokenKeys } from "@/src/enums"
 import { cn } from "@/src/util/cn"
-import { getCookie } from "@/src/util/cookies"
+import { deleteCookie, getCookie } from "@/src/util/cookies"
 import { createFileRoute, Link, Outlet, useNavigate } from "@tanstack/react-router"
 import { ChartNoAxesCombined, LogIn } from "lucide-react"
 
@@ -12,8 +12,12 @@ export const Route = createFileRoute("/_voting")({
 
 function RouteComponent() {
   const navigate = useNavigate({ from: "/voting" })
-
   const isAuthenticated = getCookie(TokenKeys.AccessToken)
+
+  function handleLogout() {
+    deleteCookie(TokenKeys.AccessToken)
+    navigate({ to: "/login" })
+  }
 
   return (
     <>
@@ -37,6 +41,10 @@ function RouteComponent() {
                 )}
                 {isAuthenticated ? "Ir para o Dashboard" : "Entrar"}
               </div>
+            </Button>
+
+            <Button size="sm" variant="danger" onClick={handleLogout}>
+              Sair
             </Button>
           </div>
         </div>

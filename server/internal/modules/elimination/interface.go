@@ -3,7 +3,7 @@ package elimination
 import (
 	"context"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/shared/dto"
+	"github.com/bernardinorafael/globo-challenge/internal/shared/dto"
 )
 
 type Repository interface {

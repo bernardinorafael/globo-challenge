@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/infra/token"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/shared/dto"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/util"
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/errs"
+	"github.com/bernardinorafael/globo-challenge/internal/infra/token"
+	"github.com/bernardinorafael/globo-challenge/internal/shared/dto"
+	"github.com/bernardinorafael/globo-challenge/internal/util"
+	"github.com/bernardinorafael/globo-challenge/pkg/errs"
 	"github.com/lib/pq"
 )
 

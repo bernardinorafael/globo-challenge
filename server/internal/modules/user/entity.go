@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/util"
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/crypto"
+	"github.com/bernardinorafael/globo-challenge/internal/util"
+	"github.com/bernardinorafael/globo-challenge/pkg/crypto"
 )
 
 const (

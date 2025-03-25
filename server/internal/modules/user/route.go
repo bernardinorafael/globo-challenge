@@ -4,11 +4,11 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/infra/http/middleware"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/infra/token"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/shared/dto"
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/util"
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/errs"
+	"github.com/bernardinorafael/globo-challenge/internal/infra/http/middleware"
+	"github.com/bernardinorafael/globo-challenge/internal/infra/token"
+	"github.com/bernardinorafael/globo-challenge/internal/shared/dto"
+	"github.com/bernardinorafael/globo-challenge/internal/util"
+	"github.com/bernardinorafael/globo-challenge/pkg/errs"
 	"github.com/go-chi/chi"
 )
 

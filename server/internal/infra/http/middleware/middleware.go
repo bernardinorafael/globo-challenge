@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/infra/token"
-	"github.com/bernardinorafael/globo-bbb-challenge/pkg/errs"
+	"github.com/bernardinorafael/globo-challenge/internal/infra/token"
+	"github.com/bernardinorafael/globo-challenge/pkg/errs"
 )
 
 type AuthKey struct{}

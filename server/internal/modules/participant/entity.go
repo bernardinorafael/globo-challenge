@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bernardinorafael/globo-bbb-challenge/internal/util"
+	"github.com/bernardinorafael/globo-challenge/internal/util"
 )
 
 const (

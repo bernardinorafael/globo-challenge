@@ -6,6 +6,11 @@ APP_NAME=globo-challenge
 VERSION=1.0.0
 DOCKER_IMAGE=$(APP_NAME):$(VERSION)
 
+seed:
+	@echo "=====> Running seed"
+	@go run cmd/seed/main.go
+.PHONY: seed
+
 # Access the Air container
 air-logs:
 	@docker compose logs -f air
